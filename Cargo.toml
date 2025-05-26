@@ -1,0 +1,31 @@
+# -*- mode: conf-toml; coding: utf-8-unix; -*-
+### cbor: Utilities for decoding Concise Binary Object Notation
+### Copyright (C) 2025 GLVI Gesellschaft für Luftverkehrsinformatik mbH.
+###
+### This program is free software: you can redistribute it and/or modify
+### it under the terms of the GNU General Public License as published by
+### the Free Software Foundation, either version 3 of the License, or (at
+### your option) any later version.
+###
+### This program is distributed in the hope that it will be useful, but
+### WITHOUT ANY WARRANTY; without even the implied warranty of
+### MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+### General Public License for more details.
+###
+### You should have received a copy of the GNU General Public License
+### along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+[package]
+name = "glvi-cbor"
+version = "0.1.0"
+authors = ["Kai Lothar John <l.john@glvi.de>"]
+repository = "https://github.com/glvi/cbor_rust.git"
+license = "GNU General Public License v3.0 or later"
+edition = "2024"
+description = "Concise Binary Object Notation - encoder, decoder, and other utilities"
+
+[lib]
+name = "cbor"
+
+[dev-dependencies]
+rand = "0.9"

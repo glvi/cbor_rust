@@ -1,0 +1,5 @@
+match_arm_leading_pipes      = "Never"
+max_width                    = 80
+newline_style                = "Unix"
+use_field_init_shorthand     = true
+use_try_shorthand            = true
